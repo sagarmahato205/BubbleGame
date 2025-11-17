@@ -1,6 +1,6 @@
 function makeBubble(){
    var clutter ="";
-   for(var i =1;i<=126;i++){
+   for(var i =1;i<=24;i++){
     var num = Math.floor(Math.random()*10);
     var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
     clutter+=`<div class="bubble ">${num}</div>`;

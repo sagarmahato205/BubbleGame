@@ -67,17 +67,30 @@ html,body{
 }
 .bubble{
     
-    height: 50px;
-    width: 50px;
+    height:100px;
+    width: 100px;
     background-color: rgb(91, 120, 91);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin: 10px 10px;
 }
 .bubble:hover{
     cursor: pointer;
     background-color: rgb(15, 86, 15);
     color: #fff;
+}
+@media (max-width:500px) {
+    #mainpart{
+        height: 100%;
+        width: 100%;
+    }
+    #part1{
+        padding: 0% 10%;
+    }
+    .bubble{
+        margin: 1px;
+    }
+    
 }
